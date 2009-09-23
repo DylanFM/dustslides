@@ -1,0 +1,16 @@
+!!! Strict
+%html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+    %title
+      Avoca Beach Dust Dawn
+    %link{ :href => "/stylesheets/master.css", :rel => "stylesheet", :type => "text/css", :media => "all", :charset => "utf-8" }
+  %body
+    .container
+      %h1 Avoca Beach Dust Dawn
+      %h3
+        Slides from the
+        %a{ :href => "http://www.coastalwatch.com/camera/cameras_large.aspx?cam=3160&state=NSW&t=8:19:31%20AM&camName=Avoca", :title => "Coastal Watch Avoca Beach surf cam" }
+          Coastal Watch surf cam
+        at Avoca Beach.
+      = yield
